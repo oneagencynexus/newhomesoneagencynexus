@@ -1,0 +1,485 @@
+[
+ {
+  "id": "yarrabilba",
+  "reg_": "south",
+  "suburb": "Yarrabilba",
+  "pc": "4207",
+  "ll": [
+   -27.82,
+   153.1
+  ],
+  "price": 799900,
+  "land": 263,
+  "build": 150,
+  "lp": 450000,
+  "bp": 349900,
+  "title": "Registered",
+  "rent": [
+   670,
+   720
+  ],
+  "b": 3,
+  "ba": 2,
+  "l": 1,
+  "c": 1,
+  "img": "w5.jpg",
+  "pts": [
+   "Fixed price, full turnkey",
+   "Registered land, ready to build",
+   "Growth corridor between Brisbane and the Gold Coast"
+  ],
+  "dev": "F",
+  "plan": "p_yarrabilba.jpg",
+  "interior": "i_yarrabilba.jpg",
+  "status": "active"
+ },
+ {
+  "id": "parkridge",
+  "reg_": "south",
+  "suburb": "Park Ridge",
+  "pc": "4125",
+  "ll": [
+   -27.71,
+   153.04
+  ],
+  "price": 894900,
+  "land": 347,
+  "build": 157,
+  "lp": 534380,
+  "bp": 360520,
+  "title": "Jun 2027",
+  "rent": [
+   630,
+   680
+  ],
+  "b": 3,
+  "ba": 2,
+  "l": 1,
+  "c": 2,
+  "img": "w4.jpg",
+  "est": true,
+  "pts": [
+   "Fixed price, full turnkey",
+   "Double garage on a 347 m² block",
+   "Logan growth corridor, Greater Flagstone plan"
+  ],
+  "dev": "F",
+  "plan": "p_parkridge.jpg",
+  "interior": "i_parkridge.jpg",
+  "status": "active"
+ },
+ {
+  "id": "durack",
+  "reg_": "south",
+  "suburb": "Durack",
+  "pc": "4077",
+  "ll": [
+   -27.56,
+   152.99
+  ],
+  "price": 987900,
+  "land": 302,
+  "build": 137,
+  "lp": 588000,
+  "bp": 399900,
+  "title": "Mar 2027",
+  "rent": [
+   650,
+   700
+  ],
+  "b": 3,
+  "ba": 2,
+  "l": 2,
+  "c": 1,
+  "img": "w3.jpg",
+  "pts": [
+   "New home in an established south-west suburb",
+   "Two living areas, alfresco, air conditioning",
+   "About 15 km from the Brisbane CBD"
+  ],
+  "dev": "F",
+  "plan": "p_durack.jpg",
+  "interior": "i_durack.jpg",
+  "status": "active"
+ },
+ {
+  "id": "greenbank",
+  "reg_": "south",
+  "suburb": "Greenbank",
+  "pc": "4124",
+  "ll": [
+   -27.66,
+   152.99
+  ],
+  "price": 988900,
+  "land": 381,
+  "build": 185,
+  "lp": 590000,
+  "bp": 398900,
+  "title": "Mar 2027",
+  "rent": [
+   780,
+   850
+  ],
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 2,
+  "img": "w1.jpg",
+  "pts": [
+   "Largest block and home in the south range",
+   "Four bedrooms, double garage, two living areas",
+   "Logan corridor between Brisbane and the Gold Coast"
+  ],
+  "dev": "F",
+  "plan": "p_greenbank.jpg",
+  "interior": "i_greenbank.jpg",
+  "status": "active"
+ },
+ {
+  "id": "ripley",
+  "reg_": "south",
+  "suburb": "Ripley",
+  "pc": "4306",
+  "ll": [
+   -27.67,
+   152.8
+  ],
+  "price": 1026900,
+  "land": 455,
+  "build": 175,
+  "title": "Registered",
+  "rent": [
+   680,
+   750
+  ],
+  "est": true,
+  "b": 5,
+  "ba": 2,
+  "l": null,
+  "c": 2,
+  "img": "w_ripley.jpg",
+  "pts": [
+   "Five-bedroom family home on 455 m²",
+   "Registered land",
+   "Infrastructure-backed Ipswich growth area"
+  ],
+  "note": "Price excludes stamp duty and government, legal and bank charges.",
+  "dev": "C",
+  "plan": "p_ripley.jpg",
+  "interior": "i_ripley.jpg",
+  "status": "active"
+ },
+ {
+  "id": "loganreserve",
+  "reg_": "south",
+  "suburb": "Logan Reserve",
+  "pc": "4133",
+  "ll": [
+   -27.75,
+   153.12
+  ],
+  "price": 919900,
+  "land": 358,
+  "build": 173,
+  "title": "To be confirmed",
+  "rent": [
+   690,
+   750
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": null,
+  "c": 2,
+  "img": "w_logan.jpg",
+  "pts": [
+   "Four bedrooms, two bathrooms, double garage",
+   "358 m² block, 173 m² home",
+   "South Logan, about 35 km from the Brisbane CBD"
+  ],
+  "note": "Price as advertised in August 2026. Please confirm current availability.",
+  "dev": "H",
+  "plan": "p_logan.jpg",
+  "interior": "i_loganreserve.jpg",
+  "status": "active"
+ },
+ {
+  "id": "morayfield",
+  "reg_": "north",
+  "suburb": "Morayfield",
+  "pc": "4506",
+  "ll": [
+   -27.11,
+   152.95
+  ],
+  "price": 883015,
+  "land": 248,
+  "build": 154,
+  "lp": 515000,
+  "bp": 368015,
+  "title": "Registered",
+  "rent": [
+   710,
+   730
+  ],
+  "b": 4,
+  "ba": 2,
+  "l": 1,
+  "c": 1,
+  "img": "w6.jpg",
+  "pts": [
+   "Registered land, turnkey",
+   "Lowest entry price on the Caboolture rail line",
+   "Station, shopping centre and schools nearby"
+  ],
+  "dev": "A",
+  "plan": "p_morayfield.jpg",
+  "interior": "i_morayfield.jpg",
+  "status": "active"
+ },
+ {
+  "id": "joyner",
+  "reg_": "north",
+  "suburb": "Joyner",
+  "pc": "4500",
+  "ll": [
+   -27.27,
+   152.97
+  ],
+  "price": 964900,
+  "land": 356,
+  "build": 159,
+  "lp": 575000,
+  "bp": 389900,
+  "title": "Jan 2027",
+  "rent": [
+   820,
+   870
+  ],
+  "b": 4,
+  "ba": 2,
+  "l": 1,
+  "c": 2,
+  "img": "w8.jpg",
+  "pts": [
+   "Quiet lakeside suburb in Moreton Bay",
+   "Four bedrooms and a double garage",
+   "Near Petrie and Lawnton stations, UniSC Petrie"
+  ],
+  "dev": "F",
+  "plan": "p_joyner.jpg",
+  "interior": "i_joyner.jpg",
+  "status": "active"
+ },
+ {
+  "id": "taigum",
+  "reg_": "north",
+  "suburb": "Taigum",
+  "pc": "4018",
+  "ll": [
+   -27.34,
+   153.05
+  ],
+  "price": 1207900,
+  "land": 400,
+  "build": 193,
+  "title": "To be confirmed",
+  "rent": [
+   780,
+   850
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 2,
+  "img": "w_taigum.jpg",
+  "pts": [
+   "Four bedrooms, two living areas, furnished",
+   "400 m² block, 193 m² home",
+   "About 13 km north of the Brisbane CBD"
+  ],
+  "note": "Price as advertised in August 2026. Please confirm current availability.",
+  "dev": "F",
+  "plan": "p_taigum.jpg",
+  "interior": "i_taigum.jpg",
+  "status": "active"
+ },
+ {
+  "id": "gympie",
+  "reg_": "coast",
+  "suburb": "Gympie",
+  "pc": "4570",
+  "ll": [
+   -26.19,
+   152.67
+  ],
+  "price": 1043500,
+  "land": 600,
+  "build": 228,
+  "title": "Nov 2026 (forecast)",
+  "rent": [
+   1190,
+   1210
+  ],
+  "b": 5,
+  "ba": 3,
+  "l": null,
+  "c": 2,
+  "img": "w_gympie.jpg",
+  "img2": "w_gympie2.jpg",
+  "dual": true,
+  "pts": [
+   "Dual-key: two dwellings under one roof on 600 m²",
+   "Rent both sections, or live in one and rent the other",
+   "Regional centre with schools, hospital and TAFE"
+  ],
+  "note": "Rent is the combined estimate for both sections.",
+  "dev": "A",
+  "plan": "p_gympie.jpg",
+  "interior": "i_gympie.jpg",
+  "status": "active"
+ },
+ {
+  "id": "terrace",
+  "reg_": "coast",
+  "suburb": "Caloundra South",
+  "pc": "4551",
+  "ll": [
+   -26.8,
+   153.08
+  ],
+  "price": 599900,
+  "land": null,
+  "build": null,
+  "title": "Apr–May 2027",
+  "rent": [
+   600,
+   680
+  ],
+  "est": true,
+  "b": 2,
+  "ba": 2,
+  "l": null,
+  "c": 1,
+  "img": "w_terrace.jpg",
+  "pts": [
+   "Brand-new double-storey terrace home",
+   "Fixed price with no unexpected extras, full turnkey",
+   "Low-maintenance living close to parks, walking trails, schools and shops"
+  ],
+  "note": "Price as advertised. Please confirm current availability. Land registration expected April–May 2027.",
+  "dev": "",
+  "plan": "p_terrace.jpg",
+  "interior": "i_terrace.jpg",
+  "status": "active"
+ },
+ {
+  "id": "fernvale",
+  "reg_": "west",
+  "suburb": "Fernvale",
+  "pc": "4306",
+  "ll": [
+   -27.44,
+   152.66
+  ],
+  "price": 699900,
+  "land": null,
+  "land_txt": "1,083 m² total",
+  "build": 132.6,
+  "lp_txt": "Single contract",
+  "bp": 699900,
+  "title": "To be confirmed",
+  "rent": [
+   570,
+   620
+  ],
+  "est": true,
+  "b": 3,
+  "ba": 2,
+  "l": null,
+  "c": 1,
+  "img": "w_fernvale.jpg",
+  "pts": [
+   "Brand-new duplex, one of two homes on the lot",
+   "Single contract price, full turnkey",
+   "Three bedrooms, two bathrooms, open-plan living and alfresco"
+  ],
+  "note": "Price as advertised. Please confirm current availability. Lot size 1,083 m² is the total area shared by both homes.",
+  "dev": "H",
+  "plan": "p_fernvale.jpg",
+  "interior": "i_fernvale.jpg",
+  "status": "active"
+ },
+ {
+  "id": "burpengary",
+  "reg_": "north",
+  "suburb": "Burpengary East",
+  "pc": "4505",
+  "ll": [
+   -27.07,
+   152.98
+  ],
+  "price": 1205900,
+  "land": 406,
+  "build": 255,
+  "lp": 630000,
+  "bp": 575900,
+  "title": "Jan 2027",
+  "rent": [
+   820,
+   900
+  ],
+  "est": true,
+  "b": 5,
+  "ba": 3,
+  "l": null,
+  "c": 2,
+  "img": "w_burpengary.jpg",
+  "pts": [
+   "Fixed price package, two-storey family home",
+   "Five bedrooms, three bathrooms, leisure room and outdoor living",
+   "Fully landscaped with exposed aggregate driveway, fencing and air conditioning"
+  ],
+  "note": "Price as advertised. Does not include stamp duty, government, legal or bank charges. Please confirm current availability.",
+  "dev": "C",
+  "plan": "p_burpengary.jpg",
+  "interior": "i_burpengary.jpg",
+  "status": "active"
+ },
+ {
+  "id": "lilywood",
+  "reg_": "north",
+  "suburb": "Lilywood",
+  "pc": "4513",
+  "ll": [
+   -27.09,
+   152.94
+  ],
+  "price": 1168900,
+  "land": 375,
+  "build": 190,
+  "title": "To be confirmed",
+  "rent": [
+   800,
+   870
+  ],
+  "est": true,
+  "b": 5,
+  "ba": 2,
+  "l": null,
+  "c": 2,
+  "img": "w_lilywood.jpg",
+  "pts": [
+   "New five-bedroom family home on a 375 m² block",
+   "Two bathrooms and a double garage",
+   "Growth area north of Brisbane, about 43 km from the CBD"
+  ],
+  "note": "Price as advertised. Please confirm current availability and inclusions. Images are illustrative.",
+  "dev": "C",
+  "plan": "p_lilywood.jpg",
+  "interior": "i_lilywood.jpg",
+  "status": "active"
+ }
+]
