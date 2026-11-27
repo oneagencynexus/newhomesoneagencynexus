@@ -1,5 +1,39 @@
 [
  {
+  "id": "pimpama",
+  "reg_": "south",
+  "suburb": "Pimpama",
+  "pc": "4209",
+  "ll": [
+   -27.81,
+   153.305
+  ],
+  "price": 955400,
+  "land": 300,
+  "build": 131,
+  "lp": 617500,
+  "bp": 337900,
+  "title": "March 2027",
+  "rent": [
+   760,
+   760
+  ],
+  "b": 3,
+  "ba": 2,
+  "l": 1,
+  "c": 1,
+  "img": "w_pimpama.jpg",
+  "pts": [
+   "Fixed price, full turnkey",
+   "Land registration expected March 2027",
+   "Gold Coast growth corridor close to the M1"
+  ],
+  "dev": "F",
+  "plan": "p_pimpama.jpg",
+  "interior": "i_pimpama.jpg",
+  "status": "active"
+ },
+ {
   "id": "warner",
   "reg_": "north",
   "suburb": "Warner",
