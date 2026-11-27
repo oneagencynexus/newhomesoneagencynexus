@@ -1,5 +1,40 @@
 [
  {
+  "id": "heathwood",
+  "reg_": "south",
+  "suburb": "Heathwood",
+  "pc": "4110",
+  "ll": [
+   -27.6558,
+   152.965
+  ],
+  "price": 1042000,
+  "land": 320,
+  "build": 188,
+  "lp": 685000,
+  "bp": 357000,
+  "title": "On request",
+  "rent": [
+   720,
+   770
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 2,
+  "img": "w_heathwood.jpg",
+  "pts": [
+   "Fixed price package with ducted air-conditioning",
+   "Spacious 320 m² block in a brand-new community",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_heathwood.jpg",
+  "status": "active"
+ },
+ {
   "id": "bridgeman",
   "reg_": "north",
   "suburb": "Bridgeman Downs",
