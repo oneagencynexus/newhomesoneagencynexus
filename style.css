@@ -230,3 +230,8 @@ body{background:#ECEAE3}
 .subs{gap:2px;background:#CDD0CA}
 .subs .pf{border-left:0}
 .subs .pf img{padding:34px 8px 8px;box-sizing:border-box}
+/* uniform, larger floor plans */
+.subs{grid-template-columns:.8fr 1.2fr}
+.subs .pf img{padding:30px 6px 6px}
+.subs{min-height:430px}.subs figure{min-height:430px}
+@media(max-width:640px){.subs,.subs figure{min-height:360px}}
