@@ -68,7 +68,7 @@ def card(o):
     rent=''
     if o['rent']:
         a,b=o['rent'];ya=a*52/o['price']*100;yb=b*52/o['price']*100
-        rent=f'<div class="rent"><div class="rl">Potential rental income{" (estimate)" if o.get("est") else ""}</div><div class="rg"><div><b>{m(a*52)} – {m(b*52)}</b><span>per year, gross</span></div><div><b>${a} – ${b}</b><span>per week</span></div><div><b>{ya:.1f}% – {yb:.1f}%</b><span>gross yield</span></div></div></div>'
+        rent=f'<div class="rent"><div class="rl">Potential rental income{" (estimate)" if o.get("est") else ""}</div><div class="rg"><div><b>{m(a*52) if a==b else f"{m(a*52)} – {m(b*52)}"}</b><span>per year, gross</span></div><div><b>{f"${a}" if a==b else f"${a} – ${b}"}</b><span>per week</span></div><div><b>{f"{ya:.1f}%" if a==b else f"{ya:.1f}% – {yb:.1f}%"}</b><span>gross yield</span></div></div></div>'
     else:
         rent='<div class="rent"><div class="rl">Potential rental income</div><div class="rg"><div><b>Appraisal on request</b><span>ask your agent</span></div></div></div>'
     rent=rent[:-6]+f'<img class="rlogo" src="{LWD}" alt="One Agency Nexus"></div>'
@@ -78,7 +78,7 @@ def card(o):
     build_c=(f'{o["build"]} m²' if o.get('build') else 'On request')
     lp_c=(m(o['lp']) if o.get('lp') else o.get('lp_txt','On request'))
     bp_c=(m(o['bp']) if o.get('bp') else 'On request')
-    yl=(f'{o["rent"][0]*52/o["price"]*100:.1f}–{o["rent"][1]*52/o["price"]*100:.1f}%' if o['rent'] else 'On request')
+    yl=((f'{o["rent"][0]*52/o["price"]*100:.1f}%' if o['rent'][0]==o['rent'][1] else f'{o["rent"][0]*52/o["price"]*100:.1f}–{o["rent"][1]*52/o["price"]*100:.1f}%') if o['rent'] else 'On request')
     cells=[('Land size',land_c),('House size',build_c),('Land registration',o['title']),('Land price',lp_c),('House price',bp_c),('Est. gross yield',yl)]
     cellh=''.join(f'<div class="c"><span>{a}</span><b>{b}</b></div>' for a,b in cells)
     main=f'<div class="main"><img class="zm" src="{b64(o["img"])}" alt="{o["suburb"]} home, illustrative" loading="lazy"></div>' if o['img'] else f'<div class="noimg"><span>{o["suburb"]}</span></div>'

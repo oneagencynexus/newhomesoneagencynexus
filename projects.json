@@ -1,5 +1,39 @@
 [
  {
+  "id": "boondall",
+  "reg_": "north",
+  "suburb": "Boondall",
+  "pc": "4034",
+  "ll": [
+   -27.3556,
+   153.0693
+  ],
+  "price": 1143900,
+  "land": 330,
+  "build": 215,
+  "lp": 665000,
+  "bp": 478900,
+  "title": "Registered",
+  "rent": [
+   900,
+   900
+  ],
+  "b": 4,
+  "ba": 3,
+  "l": 2,
+  "c": 2,
+  "img": "w_boondall.jpg",
+  "pts": [
+   "Fixed price, full turnkey",
+   "Registered land, ready to build",
+   "Spacious double-storey family home with ducted air-conditioning and solar"
+  ],
+  "dev": "F",
+  "plan": "p_boondall.jpg",
+  "interior": "i_boondall.jpg",
+  "status": "active"
+ },
+ {
   "id": "yarrabilba",
   "reg_": "south",
   "suburb": "Yarrabilba",
