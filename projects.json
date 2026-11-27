@@ -1,5 +1,75 @@
 [
  {
+  "id": "chambersflat",
+  "reg_": "south",
+  "suburb": "Chambers Flat",
+  "pc": "4133",
+  "ll": [
+   -27.7116,
+   153.0227
+  ],
+  "price": 1019900,
+  "land": 480,
+  "build": 194,
+  "lp": 630000,
+  "bp": 389900,
+  "title": "On request",
+  "rent": [
+   680,
+   730
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 2,
+  "img": "w_chambersflat.jpg",
+  "pts": [
+   "Fixed price package in a brand-new community",
+   "Large 480 m² block with room for the whole family",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_chambersflat.jpg",
+  "status": "active"
+ },
+ {
+  "id": "doolandella",
+  "reg_": "south",
+  "suburb": "Doolandella",
+  "pc": "4077",
+  "ll": [
+   -27.6165,
+   152.969
+  ],
+  "price": 1245300,
+  "land": 700,
+  "build": 190,
+  "lp": 785000,
+  "bp": 460300,
+  "title": "On request",
+  "rent": [
+   800,
+   850
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2.5,
+  "l": 2,
+  "c": 2,
+  "img": "w_doolandella.jpg",
+  "pts": [
+   "Fixed price package in a brand-new community",
+   "Large 700 m² block with space for the whole family",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_doolandella.jpg",
+  "status": "active"
+ },
+ {
   "id": "heathwood",
   "reg_": "south",
   "suburb": "Heathwood",
