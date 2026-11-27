@@ -23,7 +23,7 @@ cp=[P(*c) for c in coast]
 land='M-110,'+f'{P(-26.05,0)[1]:.0f}'+' L'+' L'.join(f'{x:.0f},{y:.0f}' for x,y in cp)+f' L-110,{P(-27.95,0)[1]:.0f} Z'
 river='M'+' L'.join(f'{x:.0f},{y:.0f}' for x,y in [P(-27.50,152.95),P(-27.47,153.03),P(-27.42,153.12),P(-27.38,153.15)])
 OVDEF='<defs><pattern id="gr" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#2a2e2c" stroke-width="1"/></pattern><filter id="gl" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
-LBL={'burpengary':(256,392,'start',True),'lilywood':(256,424,'start',True),'morayfield':(256,456,'start',True),'durack':(256,612,'start',True),'greenbank':(256,640,'start',True),'parkridge':(256,668,'start',True),'loganreserve':(256,696,'start',True),'yarrabilba':(256,724,'start',True),'ripley':(105,668,'end',False),'gympie':(89,61,'start',False),'terrace':(228,312,'start',False),'fernvale':(85,574,'start',False),'joyner':(191,504,'start',False),'taigum':(218,533,'start',False)}
+LBL={'burpengary':(256,392,'start',True),'lilywood':(256,424,'start',True),'morayfield':(256,456,'start',True),'durack':(256,612,'start',True),'greenbank':(256,640,'start',True),'parkridge':(256,668,'start',True),'loganreserve':(256,696,'start',True),'yarrabilba':(256,724,'start',True),'ripley':(105,668,'end',False),'gympie':(89,61,'start',False),'terrace':(228,312,'start',False),'fernvale':(85,574,'start',False),'joyner':(191,504,'start',False),'taigum':(256,520,'start',True),'morayfield2':(256,488,'start',True),'bridgeman':(256,552,'start',True),'boondall':(194,539,'end',False)}
 def mapsvg(o=None,overview=False):
     vb=f"0 0 {W} {H}"
     if overview: vb="-10 20 410 750"
@@ -43,6 +43,7 @@ def mapsvg(o=None,overview=False):
         x,y=P(*p['ll']);on=(o is not None and p is o)
         if overview:
             lx,ly,an,ld=LBL.get(p["id"],(x+14,y+4,"start",False))
+            if p["id"] not in LBL and x+14+len(p["suburb"])*9.5>W: lx,an=x-14,"end"
             ln=f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{(lx-5 if an=="start" else lx+5):.0f}" y2="{ly-4:.0f}" stroke="#666B67" stroke-width="1"/>' if ld else ''
             s+=f'<g class="pin" data-t="{p["id"]}" tabindex="0" style="cursor:pointer">{ln}<circle cx="{x:.0f}" cy="{y:.0f}" r="14" fill="transparent"/><circle class="pulse" cx="{x:.0f}" cy="{y:.0f}" r="6" fill="#E65F19"/><circle cx="{x:.0f}" cy="{y:.0f}" r="5.5" fill="#E65F19" stroke="#fff" stroke-width="1.5"/><text x="{lx:.0f}" y="{ly:.0f}" text-anchor="{an}" fill="#fff" font-size="12" letter-spacing="1.2" font-weight="600">{p["suburb"].upper()}</text><text class="pp" x="{lx:.0f}" y="{ly+13:.0f}" text-anchor="{an}" fill="#E65F19" font-size="10.5" letter-spacing=".6">{m(p["price"])}</text></g>'
         elif on:

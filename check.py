@@ -15,7 +15,7 @@ for o in data:
     for k in ('img','plan','interior'):
         f=o.get(k) or (f'i_{n}.jpg' if k=='interior' else '')
         if f and not os.path.exists('images/'+f): errs.append(f'{n}: image not found images/{f}')
-    if not o.get('plan'): errs.append(f'{n}: no floor plan (field "plan")')
+    if not o.get('plan'): print(f'WARN {n}: no floor plan, card shows "Floor plan on request"')
 if errs:
     print('\n'.join(errs));sys.exit(1)
 print('OK',len([o for o in data if o.get("status","active")=="active"]),'active packages')

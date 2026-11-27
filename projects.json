@@ -1,5 +1,75 @@
 [
  {
+  "id": "bridgeman",
+  "reg_": "north",
+  "suburb": "Bridgeman Downs",
+  "pc": "4035",
+  "ll": [
+   -27.3568,
+   153.0192
+  ],
+  "price": 1309800,
+  "land": 370,
+  "build": 191,
+  "lp": 885000,
+  "bp": 424800,
+  "title": "On request",
+  "rent": [
+   850,
+   900
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 2,
+  "img": "w_bridgeman.jpg",
+  "pts": [
+   "Fixed price package with ducted air-conditioning",
+   "Generous 370 m² block in a brand-new community",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_bridgeman.jpg",
+  "status": "active"
+ },
+ {
+  "id": "morayfield2",
+  "reg_": "north",
+  "suburb": "Morayfield",
+  "pc": "4506",
+  "ll": [
+   -27.0944,
+   152.9453
+  ],
+  "price": 876500,
+  "land": 250,
+  "build": 155,
+  "lp": 469000,
+  "bp": 407500,
+  "title": "On request",
+  "rent": [
+   700,
+   750
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 1,
+  "img": "w_morayfield2.jpg",
+  "pts": [
+   "Fixed price package with ducted air-conditioning",
+   "Compact 4-bedroom home on a 250 m² block",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_morayfield2.jpg",
+  "status": "active"
+ },
+ {
   "id": "boondall",
   "reg_": "north",
   "suburb": "Boondall",
