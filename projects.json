@@ -1,5 +1,40 @@
 [
  {
+  "id": "southripley",
+  "reg_": "south",
+  "suburb": "South Ripley",
+  "pc": "4306",
+  "ll": [
+   -27.695,
+   152.79
+  ],
+  "price": 849900,
+  "land": 250,
+  "build": 155,
+  "lp": 455000,
+  "bp": 394900,
+  "title": "On request",
+  "rent": [
+   650,
+   700
+  ],
+  "est": true,
+  "b": 4,
+  "ba": 2,
+  "l": 2,
+  "c": 1,
+  "img": "w_southripley.jpg",
+  "pts": [
+   "Fixed price package in a brand-new community",
+   "Compact 4-bedroom home on a 250 m² block",
+   "Timber fencing, turf and garden package included"
+  ],
+  "dev": "",
+  "plan": "",
+  "interior": "i_southripley.jpg",
+  "status": "active"
+ },
+ {
   "id": "chambersflat",
   "reg_": "south",
   "suburb": "Chambers Flat",
